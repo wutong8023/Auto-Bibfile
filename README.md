@@ -9,9 +9,9 @@ This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please 
 Click [here](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) for an exemplar.
 
 ## Instruction
-1. check ```bibtex.bib```: the toolkit parses based on keywords in each entry.
-2. the keywords should be predefined in ```scripts/bibtext_to_md.py # fined_taxonomy```.
-3. check ```TODOs``` in ```scripts/bibtext_to_md.py``` for customization.
+1. check [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib): the toolkit parses based on keywords in each entry.
+2. the keywords should be predefined in [scripts/bibtext_to_md.py # fined_taxonomy](https://github.com/wutong8023/Auto-Bibfile/tree/master/scripts/bibtex_to_md.py#L84).
+3. check ```TODOs``` in [scripts/bibtext_to_md.py](https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/bibtex_to_md.py) for customization.
 
 ## How to Contribute
 Please feel free to use and share [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git). It would be great 
