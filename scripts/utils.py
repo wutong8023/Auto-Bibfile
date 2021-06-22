@@ -2,7 +2,7 @@ import os
 import bibtexparser
 
 bibtex_filename = "./bibtex.bib"
-
+base_link = "https://github.com/wutong8023/Auto-Bibfile/tree/master/"
 
 def keep_last_and_only(authors_str):
     """
@@ -44,11 +44,10 @@ def get_bibtex_line(filename, ID):
     assert end_line_number > 0
     return start_line_number, end_line_number
 
-
 def create_bib_link(ID):
     link = bibtex_filename
     start_bib, end_bib = get_bibtex_line(link, ID)
-    link = "https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/" + link
+    link = base_link + link
     
     # bibtex file is one folder upon markdown files
     # link = "../blob/master/" + link

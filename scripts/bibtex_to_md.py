@@ -2,6 +2,9 @@ from utils import generate_md_file
 import bibtexparser
 
 file_name = 'bibtex.bib'
+base_link = "https://github.com/wutong8023/Auto-Bibfile/tree/master/"
+your_research_topic = "your_topic"
+
 with open(file_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
 
@@ -13,9 +16,9 @@ def plot_titles(titles):
 
 
 def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False):
-    if filename.startswith("your_topic4nlp"):
+    if filename.startswith("" + your_research_topic + "4nlp"):
         str_outline = "# Your Topic Literature in NLP \n"
-    elif filename.startswith("your_topic4cv"):
+    elif filename.startswith("" + your_research_topic + "4cv"):
         str_outline = "# Your Topic Literature in CV \n"
     else:
         str_outline = "# Your Topic Literature \n"
@@ -30,12 +33,12 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
     str_outline += "## Outline \n"
     
     if add_hyperlink:
-        str_outline += "- [Hyperlink](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/" + \
+        str_outline += "- [Hyperlink](" + base_link + "" + \
                        filename + '#hyperlink)\n'
     
     for i, item in enumerate(list_classif):
         str_outline += "- [" + str(count_list[i]) + "] [" + item[
-            0] + "](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/" + filename + "#" \
+            0] + "](" + base_link + "" + filename + "#" \
                        + item[0].replace(" ", "-").lower() + ')\n'
     
     return str_outline
@@ -46,14 +49,14 @@ def get_hyperlink(hyperlinks, mapping_name):
     
     # Todo 2: Change to your own link
     # Note: please check the branch name carefully!
-    str_hyperlink += "- [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)\n"
+    str_hyperlink += "- [Overview](" + base_link + "README.md)\n"
     for i, item in enumerate(hyperlinks):
         str_hyperlink += "- " + mapping_name[item]
-        str_hyperlink += " of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/" + \
+        str_hyperlink += " of [All](" + base_link + "" + your_research_topic + "4all/" + \
                          item + ')'
-        str_hyperlink += " | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/" + \
+        str_hyperlink += " | [NLP](" + base_link + "" + your_research_topic + "4nlp/" + \
                          item + ')'
-        str_hyperlink += " | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv" + item + ')\n'
+        str_hyperlink += " | [CV](" + base_link + "" + your_research_topic + "4cv" + item + ')\n'
     
     return str_hyperlink
 
@@ -154,9 +157,9 @@ mapping_name = {
     "metrics": "Metrics",
     "author": "Author",
 }
-dir_path_IE4all = ["your_topic4all/" + dp for dp in dir_path]
-dir_path_IE4nlp = ["your_topic4nlp/" + dp for dp in dir_path]
-dir_path_IE4cv = ["your_topic4cv/" + dp for dp in dir_path]
+dir_path_IE4all = ["" + your_research_topic + "4all/" + dp for dp in dir_path]
+dir_path_IE4nlp = ["" + your_research_topic + "4nlp/" + dp for dp in dir_path]
+dir_path_IE4cv = ["" + your_research_topic + "4cv/" + dp for dp in dir_path]
 sub_dirs = [dir_path_IE4nlp, dir_path_IE4cv, dir_path_IE4all]
 
 # 0 Home

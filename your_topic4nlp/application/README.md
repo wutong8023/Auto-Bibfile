@@ -4,9 +4,9 @@ This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please 
 This page categorizes the literature by the **Continual Learning Application**, filtered by NLP area.
 
 ## Outline 
-- [Hyperlink](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4nlp/application/README.md#hyperlink)
-- [1] [Relation Extraction](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4nlp/application/README.md#relation-extraction)
-- [1] [Event Extraction](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4nlp/application/README.md#event-extraction)
+- [Hyperlink](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/application/README.md#hyperlink)
+- [1] [Relation Extraction](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/application/README.md#relation-extraction)
+- [1] [Event Extraction](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/application/README.md#event-extraction)
 ## Hyperlink 
 - [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
 - Summary of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/./) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/./) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv./)
@@ -31,7 +31,7 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L38-L64) <br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L38-L64) <br>
 
 ## Event Extraction
 
@@ -41,4 +41,4 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L5-L31) <br>
