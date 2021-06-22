@@ -170,12 +170,7 @@ for index in indexs:
                  sub_dirs=sub_dirs, mapping_name=mapping_name)
 
 # 1 Resource Type
-list_type = [[typ] for typ in fined_taxonomy["Type"] if typ != "Method"]
-for key in fined_taxonomy["Approach"][::-1]:
-    if key in fined_taxonomy.keys():
-        list_type.insert(6, fined_taxonomy[key])
-    else:
-        list_type.insert(6, [key])
+list_type = [[typ] for typ in fined_taxonomy["Type"]]
 index = 1
 disc = "This page categorizes the literature by the Resource Type"
 plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
