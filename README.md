@@ -7,9 +7,9 @@ This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please 
 - Install: 
 ```pip install bibtexparser```
 
-- Run (click [here](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) to see a demo.
-): 
-```python scripts/bibtex_to_md.py```
+- Run: 
+```python scripts/bibtex_to_md.py```  (click [HERE](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) to see a demo.
+)
 
 - Add a new paper: 
 paste a bib entry to [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib).
