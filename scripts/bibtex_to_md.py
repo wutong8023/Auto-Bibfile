@@ -49,12 +49,11 @@ def get_hyperlink(hyperlinks, mapping_name):
     str_hyperlink += "- [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)\n"
     for i, item in enumerate(hyperlinks):
         str_hyperlink += "- " + mapping_name[item]
-        str_hyperlink += " of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topoic4all/" + \
+        str_hyperlink += " of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/" + \
                          item + ')'
         str_hyperlink += " | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/" + \
                          item + ')'
-        str_hyperlink += " | [CV or Robotics](https://github.com/wutong8023/Auto-Bibfile/tree/master" \
-                         "/your_topic4cv_robot/" + item + ')\n'
+        str_hyperlink += " | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv" + item + ')\n'
     
     return str_hyperlink
 
