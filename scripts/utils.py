@@ -2,6 +2,8 @@ import os
 import bibtexparser
 
 bibtex_filename = "./bibtex.bib"
+
+# Todo: customization
 base_link = "https://github.com/wutong8023/Auto-Bibfile/tree/master/"
 
 def keep_last_and_only(authors_str):
