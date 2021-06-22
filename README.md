@@ -6,6 +6,7 @@ This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please 
 ## Quick Start
 install:
 ```pip install bibtexparser```
+
 run:
 ```python scripts/bibtex_to_md.py```
 
