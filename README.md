@@ -6,6 +6,7 @@ This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please 
 ## Quick Start
 ```python scripts/bibtex_to_md.py```
 
+Click [here](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) for an exemplar.
 
 ## Instruction
 1. check ```bibtex.bib```: the toolkit parses based on keywords in each entry.
