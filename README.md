@@ -4,20 +4,16 @@ Auto-Bibfile is an automatic toolkit for README.md generation based on bibtex fi
 This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please don't hesitate to collaborate or fix some entries. The automation script of this repo is partially adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
 
 ## Quick Start
-- Install:
-
+- Install: 
 ```pip install bibtexparser```
 
-- Run:
-
+- Run: 
 ```python scripts/bibtex_to_md.py```
 
 - Add a new paper: 
-
 paste a bib entry to [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib).
 
 - Categorize:
-
 Add ```keywords``` to each entry and write down your note within ```@String()```. For example,
 
 ```latex
