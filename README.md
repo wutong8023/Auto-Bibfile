@@ -7,7 +7,8 @@ This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please 
 - Install: 
 ```pip install bibtexparser```
 
-- Run: 
+- Run (click [here](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) to see a demo.
+): 
 ```python scripts/bibtex_to_md.py```
 
 - Add a new paper: 
@@ -46,11 +47,6 @@ Add ```keywords``` to each entry and write down your note within ```@String()```
 }
 @String(WuLLHQZX21="Add a brief note behind the bib entry")
 ```
-
-
-
-
-Click [here](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) for an exemplar.
 
 ## Instruction
 1. check [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib): Auto-Bibfile will parse the keywords and meta-info of each entry.
