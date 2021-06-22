@@ -5,6 +5,13 @@ This page categorizes the literature by the **Author**.
 
 ## Outline 
 - [Hyperlink](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#hyperlink)
+- [1] [Guoqiang Xu](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#guoqiang-xu)
+- [1] [Yujin Zhu](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#yujin-zhu)
+- [1] [Guilin Qi](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#guilin-qi)
+- [1] [Gholamreza Haffari](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#gholamreza-haffari)
+- [1] [Yuan Fang Li](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#yuan-fang-li)
+- [1] [Xuekai Li](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#xuekai-li)
+- [1] [Tongtong Wu](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#tongtong-wu)
 ## Hyperlink 
 - [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
 - Summary of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/./) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/./) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv./)
@@ -20,3 +27,73 @@ This page categorizes the literature by the **Author**.
 - Metrics of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/metrics) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/metrics) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvmetrics)
 - Author of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/author) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/author) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvauthor)
 - Published Venue of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/venue) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvvenue)
+
+## Guoqiang Xu
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## Yujin Zhu
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## Guilin Qi
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## Gholamreza Haffari
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## Yuan Fang Li
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## Xuekai Li
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## Tongtong Wu
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>

@@ -162,7 +162,7 @@ def format_author(author_str: str):
     return formatted_author_list
 
 
-def get_author_list(DB, filter_key, filter_content, filter_num=1):
+def get_author_list(DB, filter_key, filter_content, filter_num=0):
     entries = DB.entries
     author_dict = {}
     for i, entry in enumerate(entries):
