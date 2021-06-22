@@ -1,7 +1,10 @@
 from utils import generate_md_file
 import bibtexparser
 
+
 file_name = 'bibtex.bib'
+
+# TODO 0: modify the meta-information
 base_link = "https://github.com/wutong8023/Auto-Bibfile/tree/master/"
 your_research_topic = "your_topic"
 
