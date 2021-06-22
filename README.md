@@ -1,44 +1,22 @@
-# Your Topic Literature 
-This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). The automation script of this repo is adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
+# Auto-Bibfile
+Auto-Bibfile is an automatic toolkit for README.md generation based on bibtex file.
 
-This page categorizes the literature by the **Published Venue**.
+This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please don't hesitate to collaborate or fix some entries. The automation script of this repo is partially adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
 
-## Outline 
-- [Hyperlink](https://github.com/wutong8023/Auto-Bibfile/tree/master/./README.md#hyperlink)
-- [1] [AAAI](https://github.com/wutong8023/Auto-Bibfile/tree/master/./README.md#aaai)
-- [1] [arXiv](https://github.com/wutong8023/Auto-Bibfile/tree/master/./README.md#arxiv)
-## Hyperlink 
-- [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
-- Summary of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/./) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/./) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv./)
-- Resource Type of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/type) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/type) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvtype)
-- Published Time of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/time) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/time) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvtime)
-- Application of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/application) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/application) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvapplication)
--  Learning Paradigm of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/supervision) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/supervision) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvsupervision)
-- Approach of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/approach) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/approach) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvapproach)
-- Setting of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/setting) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/setting) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvsetting)
-- Research Questions of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/research_question) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/research_question) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvresearch_question)
-- Backbone Model of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/backbone_model) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/backbone_model) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvbackbone_model)
-- Dataset of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/dataset) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/dataset) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvdataset)
-- Metrics of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/metrics) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/metrics) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvmetrics)
-- Author of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/author) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/author) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvauthor)
-- Published Venue of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/venue) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvvenue)
+## Quick Start
+install:
+```pip install bibtexparser```
+run:
+```python scripts/bibtex_to_md.py```
 
-## AAAI
+Click [here](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) for an exemplar.
 
-- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
-Xuekai Li and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Guilin Qi and
-Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L5-L31) <br>
+## Instruction
+1. check [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib): Auto-Bibfile will parse the keywords and meta-info of each entry.
+2. the keywords should be predefined in [scripts/bibtext_to_md.py # fined_taxonomy](https://github.com/wutong8023/Auto-Bibfile/tree/master/scripts/bibtex_to_md.py#L84-L137).
+3. check ```TODOs``` in [scripts/bibtext_to_md.py](https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/bibtex_to_md.py#L23) for customization.
 
-## arXiv
-
-- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
-Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and
-Tongtong Wu and
-Guilin Qi and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L38-L64) <br>
+## How to Contribute
+Please feel free to use and share [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git). It would be great 
+if you mention it in your own repository by adding:
+> The automation script of this repo is <br> powered by \[Auto-Bibfile\](https://github.com/wutong8023/Auto-Bibfile.git).
