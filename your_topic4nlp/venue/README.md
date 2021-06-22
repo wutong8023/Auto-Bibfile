@@ -6,6 +6,7 @@ This page categorizes the literature by the **Published Venue**, filtered by NLP
 ## Outline 
 - [Hyperlink](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4nlp/venue/README.md#hyperlink)
 - [1] [AAAI](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4nlp/venue/README.md#aaai)
+- [1] [arXiv](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4nlp/venue/README.md#arxiv)
 ## Hyperlink 
 - [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
 - Summary of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/./) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/./) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv./)
@@ -31,3 +32,13 @@ Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## arXiv
+
+- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
+Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and
+Tongtong Wu and
+Guilin Qi and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Sheng Bi* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L38-L64) <br>

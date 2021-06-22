@@ -97,7 +97,8 @@ fined_taxonomy = {
     
     # 1: resource type
     "Type": ["Survey", "Important", "New Settings or Metrics", "New Extraction Application",
-             "Empirical Study", "Theory", "Backbone Model", "Method", "Thesis", "Library", "Workshop", "Other Type"],
+             "Empirical Study", "Theory", "New Backbone Model", "New Method", "Thesis", "Library", "Workshop",
+             "Other Type"],
     # 2: Area
     "Area": ["CV", "NLP", "Multi-Modal", "Robotics"],
     
@@ -106,31 +107,33 @@ fined_taxonomy = {
                     "Other Learning Paradigm"],
     
     # 4: Application
-    "Application": ["Relation Extraction",
+    "Application": ["Relation Extraction", "Event Extraction",
                     "Other Application", ],
     
     # 5: Approach
-    "Approach": ["Rehearsal", "Other Approach"],
+    "Approach": ["Rehearsal", "Meta-learning", "Other Approach"],
     
     # 6: Whether need memory
     "Memory": ["w/ External Knowledge", "w/o External Knowledge"],
     
     # 7: Setting
-    "Setting": ["Class Incremental", "Other Setting"],
+    "Setting": ["Class Incremental", "N-way K-shot", "Other Setting"],
     
     # 8: Research Question
-    "RQs": {"Catastrophic Forgetting", "Order Sensitivity", "Others RQs"},
+    "RQs": {"Catastrophic Forgetting", "Order Sensitivity", "Few-shot Adaptation", "Others RQs"},
     
     # 9: Backbone
     "Backbone": ["BERTs", "Transformers", "Adapter", "RNNs", "CNNs", "GNNs", "Attentions", "Capsule Net",
                  "Probabilistic Graphical Model", "VAEs", "Other Structure"],
     
     # 10: Dataset
-    "Dataset": ["Fewrel", "SimpleQuestion", "Tacred", "Other Dataset"
+    "Dataset": ["Fewrel", "SimpleQuestion", "Tacred",
+                "FewEvent",
+                "Other Dataset"
                 ],
     
     # 11: Metrics
-    "Metrics": ["Accuracy", ]
+    "Metrics": ["Accuracy", "F1"]
 }
 
 dir_path = ["./", "type", "time", "application", "supervision", "approach", "setting",

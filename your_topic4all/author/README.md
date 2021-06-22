@@ -5,13 +5,10 @@ This page categorizes the literature by the **Author**.
 
 ## Outline 
 - [Hyperlink](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#hyperlink)
-- [1] [Guoqiang Xu](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#guoqiang-xu)
-- [1] [Yujin Zhu](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#yujin-zhu)
-- [1] [Guilin Qi](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#guilin-qi)
-- [1] [Gholamreza Haffari](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#gholamreza-haffari)
-- [1] [Yuan Fang Li](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#yuan-fang-li)
-- [1] [Xuekai Li](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#xuekai-li)
-- [1] [Tongtong Wu](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#tongtong-wu)
+- [2] [Guilin Qi](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#guilin-qi)
+- [2] [Gholamreza Haffari](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#gholamreza-haffari)
+- [2] [Yuan Fang Li](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#yuan-fang-li)
+- [2] [Tongtong Wu](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/author/README.md#tongtong-wu)
 ## Hyperlink 
 - [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
 - Summary of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/./) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/./) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv./)
@@ -28,26 +25,6 @@ This page categorizes the literature by the **Author**.
 - Author of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/author) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/author) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvauthor)
 - Published Venue of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/venue) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvvenue)
 
-## Guoqiang Xu
-
-- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
-Xuekai Li and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Guilin Qi and
-Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
-
-## Yujin Zhu
-
-- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
-Xuekai Li and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Guilin Qi and
-Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
-
 ## Guilin Qi
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
@@ -57,6 +34,14 @@ Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
+Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and
+Tongtong Wu and
+Guilin Qi and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Sheng Bi* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L38-L64) <br>
 
 ## Gholamreza Haffari
 
@@ -68,6 +53,14 @@ Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
 
+- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
+Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and
+Tongtong Wu and
+Guilin Qi and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Sheng Bi* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L38-L64) <br>
+
 ## Yuan Fang Li
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
@@ -78,15 +71,13 @@ Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
 
-## Xuekai Li
-
-- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
-Xuekai Li and
+- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
+Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and
+Tongtong Wu and
+Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Guilin Qi and
-Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L38-L64) <br>
 
 ## Tongtong Wu
 
@@ -97,3 +88,11 @@ Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
+Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and
+Tongtong Wu and
+Guilin Qi and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Sheng Bi* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L38-L64) <br>
