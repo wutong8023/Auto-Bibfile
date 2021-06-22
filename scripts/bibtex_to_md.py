@@ -119,8 +119,7 @@ fined_taxonomy = {
     "Setting": ["Class Incremental", "Other Setting"],
     
     # 8: Research Question
-    "RQs": {"Catastrophic Forgetting", "Order Sensitivity"
-                                       "Others RQs"},
+    "RQs": {"Catastrophic Forgetting", "Order Sensitivity", "Others RQs"},
     
     # 9: Backbone
     "Backbone": ["BERTs", "Transformers", "Adapter", "RNNs", "CNNs", "GNNs", "Attentions", "Capsule Net",

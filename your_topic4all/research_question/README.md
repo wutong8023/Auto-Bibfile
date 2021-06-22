@@ -6,6 +6,7 @@ This page categorizes the literature by the **Research Questions**.
 ## Outline 
 - [Hyperlink](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/research_question/README.md#hyperlink)
 - [1] [Catastrophic Forgetting](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/research_question/README.md#catastrophic-forgetting)
+- [1] [Order Sensitivity](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/your_topic4all/research_question/README.md#order-sensitivity)
 ## Hyperlink 
 - [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
 - Summary of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/./) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/./) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv./)
@@ -23,6 +24,16 @@ This page categorizes the literature by the **Research Questions**.
 - Published Venue of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/venue) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvvenue)
 
 ## Catastrophic Forgetting
+
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+Xuekai Li and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Guilin Qi and
+Yujin Zhu and
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Awesome_Information_Extraction/tree/master/./bibtex.bib#L4-L30) <br>
+
+## Order Sensitivity
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
 Xuekai Li and
