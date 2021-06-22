@@ -46,14 +46,14 @@ def get_hyperlink(hyperlinks, mapping_name):
     
     # Todo 2: Change to your own link
     # Note: please check the branch name carefully!
-    str_hyperlink += "- [Overview](https://github.com/wutong8023/Auto_Bibfile/tree/master/README.md)\n"
+    str_hyperlink += "- [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)\n"
     for i, item in enumerate(hyperlinks):
         str_hyperlink += "- " + mapping_name[item]
-        str_hyperlink += " of [All](https://github.com/wutong8023/Auto_Bibfile/tree/master/cl4all/" + \
+        str_hyperlink += " of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/cl4all/" + \
                          item + ')'
-        str_hyperlink += " | [NLP](https://github.com/wutong8023/Auto_Bibfile/tree/master/cl4nlp/" + \
+        str_hyperlink += " | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/cl4nlp/" + \
                          item + ')'
-        str_hyperlink += " | [CV or Robotics](https://github.com/wutong8023/Auto_Bibfile/tree/master" \
+        str_hyperlink += " | [CV or Robotics](https://github.com/wutong8023/Auto-Bibfile/tree/master" \
                          "/cl4cv_robot/" + item + ')\n'
     
     return str_hyperlink

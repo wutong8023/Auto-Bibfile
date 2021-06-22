@@ -1,5 +1,5 @@
-# Auto_Bibfile
-Auto_Bibfile is a automatic toolkit for README.md generation based on .bib texfile, especially for awesome-paper-list repositories.
+# Auto-Bibfile
+Auto-Bibfile is a automatic toolkit for README.md generation based on .bib texfile, especially for awesome-paper-list repositories.
 
 This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). The automation script of this repo is adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
 
@@ -13,6 +13,6 @@ This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please 
 3. check ```TODOs``` in ```scripts/bibtext_to_md.py``` for customization.
 
 ## How to Contribute
-Please feel free to use and share [Auto_Bibfile](https://github.com/wutong8023/Auto_Bibfile.git). It would be great 
+Please feel free to use and share [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git). It would be great 
 if you mention it in your own repository by adding:
-> The automation script of this repo is <br> powered by \[Auto_Bibfile\](https://github.com/wutong8023/Auto_Bibfile.git).
+> The automation script of this repo is <br> powered by \[Auto-Bibfile\](https://github.com/wutong8023/Auto-Bibfile.git).
