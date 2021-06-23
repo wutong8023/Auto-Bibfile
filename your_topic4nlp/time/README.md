@@ -31,7 +31,7 @@ Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <br>
-``` Add a brief note behind the bib entry ``` 
+``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
 Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and

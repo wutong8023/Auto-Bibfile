@@ -1,16 +1,10 @@
 from utils import generate_md_file
 import bibtexparser
-
+from config import *
 
 file_name = 'bibtex.bib'
-
-# TODO 0: modify the meta-information
-base_link = "https://github.com/wutong8023/Auto-Bibfile/tree/master/"
-your_research_topic = "your_topic"
-
 with open(file_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
-
 bib_db = bibtexparser.loads(bibtex_str, parser=bibtexparser.bparser.BibTexParser(ignore_nonstandard_types=False))
 
 
@@ -27,10 +21,11 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
         str_outline = "# Your Topic Literature \n"
     
     # Todo 1: Change to your description
-    str_outline += "This repository is maintained by [Tongtong Wu](https://wutong8023.site). " \
+    str_outline += "This repository is maintained by [{author_info}]({personal_link}). " \
                    "Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). " \
                    "The automation script of this repo is adapted from [Automatic_Awesome_Bibliography]" \
-                   "(https://github.com/TLESORT/Automatic_Awesome_Bibliography).\n\n"
+                   "(https://github.com/TLESORT/Automatic_Awesome_Bibliography).\n\n".format(author_info=author_info,
+                                                                                             personal_link=personal_link)
     str_outline += dicrib + "\n\n"
     
     str_outline += "## Outline \n"
@@ -85,62 +80,6 @@ def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles
         if index != 0:
             break
 
-
-# Todo 3: Change to your own taxonomy
-fined_taxonomy = {
-    "Conference": ["ACL", "EMNLP", "NAACL", "COLING", "EACL", "CoNLL", "ICML", "ICLR", "NeurIPS", "AISTATS", "AAAI",
-                   "IJCAI", "WWW", "MM", "CVPR", "ICCV", "ECCV", "WACV"],
-    
-    "Journal": [
-        ["TACL", "Transactions of the Association for Computational Linguistics", "Trans. Assoc. Comput. Linguistics"],
-        ["TKDE", "IEEE Transactions on Knowledge and Data Engineering", "{IEEE} Trans. Knowl. Data Eng."],
-        ["TNNLS", "IEEE Transactions on Neural Networks and Learning Systems",
-         "{IEEE} Trans. Neural Networks Learn. Syst."],
-        ["IPM", "Information Processing and Managemen", "Inf. Process. Manag."],
-        ["KBS", "Knowledge-BasedSystems", "Knowl. Based Syst."]],
-    
-    "Preprint": ["arXiv", "CoRR"],
-    
-    # 1: resource type
-    "Type": ["Survey", "Important", "New Settings or Metrics", "New Application",
-             "Empirical Study", "Theory", "New Backbone Model", "New Method", "Thesis", "Library", "Workshop",
-             "Other Type"],
-    # 2: Area
-    "Area": ["CV", "NLP", "Multi-Modal", "Robotics"],
-    
-    # 3: Supervision
-    "Supervision": ["Supervised Learning",
-                    "Other Learning Paradigm"],
-    
-    # 4: Application
-    "Application": ["Relation Extraction", "Event Extraction",
-                    "Other Application", ],
-    
-    # 5: Approach
-    "Approach": ["Rehearsal", "Meta-learning", "Other Approach"],
-    
-    # 6: Whether need memory
-    "Memory": ["w/ External Knowledge", "w/o External Knowledge"],
-    
-    # 7: Setting
-    "Setting": ["Class Incremental", "N-way K-shot", "Other Setting"],
-    
-    # 8: Research Question
-    "RQs": {"Catastrophic Forgetting", "Order Sensitivity", "Few-shot Adaptation", "Others RQs"},
-    
-    # 9: Backbone
-    "Backbone": ["BERTs", "Transformers", "Adapter", "RNNs", "CNNs", "GNNs", "Attentions", "Capsule Net",
-                 "Probabilistic Graphical Model", "VAEs", "Other Structure"],
-    
-    # 10: Dataset
-    "Dataset": ["Fewrel", "SimpleQuestion", "Tacred",
-                "FewEvent",
-                "Other Dataset"
-                ],
-    
-    # 11: Metrics
-    "Metrics": ["Accuracy", "F1"]
-}
 
 dir_path = ["./", "type", "time", "application", "supervision", "approach", "setting",
             "research_question", "backbone_model", "dataset", "metrics", "author", "venue"]

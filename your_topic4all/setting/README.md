@@ -32,7 +32,7 @@ Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <br>
-``` Add a brief note behind the bib entry ``` 
+``` Add a brief note under the bib entry ``` 
 
 ## N-way K-shot
 
