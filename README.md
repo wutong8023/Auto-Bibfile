@@ -57,3 +57,6 @@ Add ```keywords``` to each entry and write down your note within ```@String()```
 Please feel free to use and share [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git). It would be great 
 if you can mention it in your repository by adding:
 > The automation script of this repo is powered by \[Auto-Bibfile\](https://github.com/wutong8023/Auto-Bibfile.git).
+
+## Acknowledgement
+This repository is maintained by [Tongtong Wu](https://wutong8023.site). The automation script of this repo is partially adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
