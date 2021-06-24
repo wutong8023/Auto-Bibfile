@@ -1,16 +1,14 @@
 """
-
+Configuration
 
 Author: Tong
 Time: 24-06-2021
 """
-# Config
-
 user_id = "wutong8023"  # github id
 author_info = "Tongtong Wu"  # used in introduction
 personal_link = "https://wutong8023.site"  # used in introduction
-repo_name = "Auto-Bibfile"  # check it in urlÒ
-branch_name = "tree/master/"  # check it in url
+repo_name = "Auto-Bibfile"  # repository name
+branch_name = "tree/master/"  # branch name
 your_research_topic = "your_topic"  # used for dictionary name
 your_research_topic_full_name = "Your Topic"  # used for title
 
