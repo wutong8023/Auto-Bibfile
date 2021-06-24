@@ -6,7 +6,7 @@ This page categorizes the literature by the **Continual Learning Approach**.
 
 ## Outline 
 - [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/approach/README.md#hyperlink)
-- [![](https://img.shields.io/badge/Rehearsal-2-blue)](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/approach/README.md#rehearsal)
+- [![](https://img.shields.io/badge/Rehearsal-1-blue)](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/approach/README.md#rehearsal)
 - [![](https://img.shields.io/badge/Meta_learning-1-blue)](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/approach/README.md#meta-learning)
 ## Hyperlink 
 - Homepage [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
@@ -34,14 +34,6 @@ Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <br>
 ``` Add a brief note under the bib entry ``` 
-
-- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
-Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
-Tongtong Wu and
-Guilin Qi and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <br>
 
 ## Meta-learning
 
