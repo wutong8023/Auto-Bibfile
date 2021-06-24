@@ -2,6 +2,8 @@
 This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). 
 The automation script of this repo is powered by [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git).
 
+You can directly use our bibtex.bib in overleaf with this [link](https://github.com/wutong8023/Auto-Bibfile/tree/master/bibtxt.bib).
+
 This page categorizes the literature by the **Continual Learning Application**, filtered by NLP area.
 
 ## Outline 
@@ -26,16 +28,6 @@ This page categorizes the literature by the **Continual Learning Application**, 
 
 ## Relation Extraction
 
-- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
-Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
-Tongtong Wu and
-Guilin Qi and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <br>
-
-## Event Extraction
-
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
 Xuekai Li and
 Yuan{-}Fang Li and
@@ -44,3 +36,13 @@ Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <br>
 ``` Add a brief note under the bib entry ``` 
+
+## Event Extraction
+
+- [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
+Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
+Tongtong Wu and
+Guilin Qi and
+Yuan{-}Fang Li and
+Gholamreza Haffari and
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <br>
