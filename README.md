@@ -10,12 +10,12 @@ Auto-Bibfile is an automatic toolkit for README.md generation based on bibtex fi
 - Add a new paper: 
 paste a bib entry to [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib).
 
-- Categorize:
-Add ```keywords``` to each entry and write down your note within ```@String()```. For example,
-
 - Run: 
 ```python scripts/run.py```  (click [HERE](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) to see a demo.
 )
+
+- Categorize:
+Add ```keywords``` to each entry and write down your note within ```@String()```. For example,
 
 ```latex
 @inproceedings{WuLLHQZX21,
