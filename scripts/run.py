@@ -8,6 +8,25 @@ with open(file_name) as bibtex_file:
 bib_db = bibtexparser.loads(bibtex_str, parser=bibtexparser.bparser.BibTexParser(ignore_nonstandard_types=False))
 
 
+def check_repetition(DB=bib_db):
+    bib_dict = {}
+    for entry in DB.entries:
+        title = entry["title"]
+        title = str(title).strip()
+        title = title.replace("{", "").replace("}", "")
+        if title in bib_dict.keys():
+            bib_dict[title] = bib_dict[title] + 1
+        else:
+            bib_dict[title] = 1
+    repet_bib = [i for i in bib_dict.keys() if bib_dict[i] > 1]
+    
+    if len(repet_bib) != 0:
+        print("Attention! Repetition detected in the bibtex file! Please check the following entries:")
+        print("---------------------------")
+    for i, title in enumerate(repet_bib):
+        print(i + 1, title)
+
+
 def plot_titles(titles):
     return '\n' + "## " + titles[0] + '\n'
 
@@ -25,19 +44,23 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
                    "Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). \n" \
                    "The automation script of this repo is powered by " \
                    "[Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git).\n\n".format(author_info=author_info,
-                                                                                             personal_link=personal_link)
+                                                                                                personal_link=personal_link)
     str_outline += dicrib + "\n\n"
     
     str_outline += "## Outline \n"
     
     if add_hyperlink:
-        str_outline += "- [Hyperlink](" + base_link + "" + \
-                       filename + '#hyperlink)\n'
+        hyperlink = "![](https://img.shields.io/badge/Hyperlink-blue)"
+        link = base_link + filename + '#hyperlink'
+        str_outline += "- [" + hyperlink + "](" + link + ')\n'
     
     for i, item in enumerate(list_classif):
-        str_outline += "- [" + str(count_list[i]) + "] [" + item[
-            0] + "](" + base_link + "" + filename + "#" \
-                       + item[0].replace(" ", "-").lower() + ')\n'
+        paper_number = "![](https://img.shields.io/badge/{}-{}-blue)".format(
+            item[0].replace(" ", "_").replace("-", "_"), str(count_list[i]))
+        link = base_link + "" + filename + "#" + item[0].replace(" ", "-").lower()
+        paper_number = "[{}]({})".format(paper_number, link)
+        
+        str_outline += "- " + paper_number + '\n'
     
     return str_outline
 
@@ -47,13 +70,15 @@ def get_hyperlink(hyperlinks, mapping_name):
     
     # Todo 2: Change to your own link
     # Note: please check the branch name carefully!
-    str_hyperlink += "- [Overview](" + base_link + "README.md)\n"
+    str_hyperlink += "- Homepage [Overview](" + base_link + "README.md)\n"
     for i, item in enumerate(hyperlinks):
         str_hyperlink += "- " + mapping_name[item]
-        str_hyperlink += " of [All](" + base_link + "" + your_research_topic + "4all/" + \
-                         item + ')'
-        str_hyperlink += " | [NLP](" + base_link + "" + your_research_topic + "4nlp/" + \
-                         item + ')'
+        all_link = "![](https://img.shields.io/badge/ALL-green)"
+        nlp_link = "![](https://img.shields.io/badge/NLP-green)"
+        cv_link = "![](https://img.shields.io/badge/CV-green)"
+        
+        str_hyperlink += " of [All](" + base_link + "" + your_research_topic + "4all/" + item + ')'
+        str_hyperlink += " | [NLP](" + base_link + "" + your_research_topic + "4nlp/" + item + ')'
         str_hyperlink += " | [CV](" + base_link + "" + your_research_topic + "4cv" + item + ')\n'
     
     return str_hyperlink
@@ -80,6 +105,9 @@ def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles
         if index != 0:
             break
 
+
+# check repetition
+check_repetition()
 
 dir_path = ["./", "type", "time", "application", "supervision", "approach", "setting",
             "research_question", "backbone_model", "dataset", "metrics", "author", "venue"]
@@ -156,7 +184,6 @@ plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_
 
 # 6 setting
 list_type = [[setting] for setting in fined_taxonomy["Setting"]]
-list_type.sort()
 index = 6
 disc = "This page categorizes the literature by the **Continual Learning Setting**"
 plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,

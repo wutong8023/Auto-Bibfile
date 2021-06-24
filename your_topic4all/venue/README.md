@@ -5,11 +5,11 @@ The automation script of this repo is powered by [Auto-Bibfile](https://github.c
 This page categorizes the literature by the **Published Venue**.
 
 ## Outline 
-- [Hyperlink](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue/README.md#hyperlink)
-- [1] [AAAI](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue/README.md#aaai)
-- [1] [arXiv](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue/README.md#arxiv)
+- [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue/README.md#hyperlink)
+- [![](https://img.shields.io/badge/AAAI-1-blue)](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue/README.md#aaai)
+- [![](https://img.shields.io/badge/arXiv-1-blue)](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/venue/README.md#arxiv)
 ## Hyperlink 
-- [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
+- Homepage [Overview](https://github.com/wutong8023/Auto-Bibfile/tree/master/README.md)
 - Summary of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/./) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/./) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cv./)
 - Resource Type of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/type) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/type) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvtype)
 - Published Time of [All](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all/time) | [NLP](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4nlp/time) | [CV](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4cvtime)
@@ -26,7 +26,7 @@ This page categorizes the literature by the **Published Venue**.
 
 ## AAAI
 
-- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , (AAAI 2021)<br> by *Tongtong Wu and
+- [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
 Xuekai Li and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
@@ -38,7 +38,7 @@ Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bi
 ## arXiv
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
-Detection**](https://arxiv.org/abs/2105.09509) , (CoRR 2021)<br> by *Shirong Shen and
+Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
 Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
