@@ -35,7 +35,7 @@ Add ```keywords``` to each entry and write down your note within ```@String()```
         New Method,
         NLP,
         Supervised Learning,
-        Event Extraction,
+        Relation Extraction,
         Rehearsal, Meta-learning,
         w/ External Knowledge,
         Class Incremental,
