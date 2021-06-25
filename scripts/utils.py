@@ -98,12 +98,8 @@ def get_md_entry(DB, entry, add_comments=True):
     
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
     
-    md_str += "<details><summary>[id]</summary>"
+    md_str += "<details><summary>[id] [comments]</summary>"
     md_str += f"<pre>```\n{entry['ID']}\n```</pre>"
-    md_str += "</details>"
-    #
-    # md_str += '<br>\n'
-    #
     if add_comments:
         # maybe there is a comment to write
         if entry['ID'].lower() in DB.strings:
@@ -111,6 +107,9 @@ def get_md_entry(DB, entry, add_comments=True):
             md_str += '``` '
             md_str += DB.strings[entry['ID'].lower()]
             md_str += ' ``` \n'
+    md_str += "</details>"
+
+    # md_str += '<br>\n'
     return md_str
 
 

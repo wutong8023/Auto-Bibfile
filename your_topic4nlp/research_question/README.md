@@ -35,10 +35,10 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary><pre>```
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id] [comments]</summary><pre>```
 WuLLHQZX21
-```</pre></details>``` Add a brief note under the bib entry ``` 
-
+```</pre>``` Add a brief note under the bib entry ``` 
+</details>
 ## Few-shot Adaptation
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
@@ -47,7 +47,7 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary><pre>```
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id] [comments]</summary><pre>```
 DBLP:journals/corr/abs-2105-09509
 ```</pre></details>
 ## Order Sensitivity
@@ -58,6 +58,7 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary><pre>```
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id] [comments]</summary><pre>```
 WuLLHQZX21
-```</pre></details>``` Add a brief note under the bib entry ``` 
+```</pre>``` Add a brief note under the bib entry ``` 
+</details>
