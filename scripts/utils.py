@@ -101,6 +101,9 @@ def get_md_entry(DB, entry, add_comments=True):
     md_str += "<details><summary>[id]</summary>"
     md_str += f"```{entry['ID']}```"
     md_str += "</details>"
+    md_str += "<details><summary>[id]</summary>"
+    md_str += f"```{entry['ID']}```"
+    md_str += "</details>"
     
     md_str += '<br>\n'
     
