@@ -1,49 +1,62 @@
-[![](https://img.shields.io/badge/Awesome_Continual_Learning-yello)](https://github.com/wutong8023/Awesome_Continual_Learning.git) [![](https://img.shields.io/badge/Awesome_Few_Shot_learning-green)](https://github.com/wutong8023/Awesome_Few_Shot_Learning.git) [![](https://img.shields.io/badge/Awesome_Information_Extraction-blue)](https://github.com/wutong8023/Awesome_Information_Extraction.git) [![](https://img.shields.io/badge/Awesome_Ideas-red)](https://github.com/wutong8023/Awesome_Ideas.git)
+# Auto-Bibfile
+Auto-Bibfile is an automatic toolkit for README.md generation based on bibtex file.
 
-# Your Topic Literature 
-This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). 
-The automation script of this repo is powered by [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git).
+## Quick Start
+- Install: 
+```pip install bibtexparser```
+  
+- Update the configuration in [scripts/config.py](https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/utils.py).
 
-You can directly use our bibtex.bib in overleaf with this [link](https://www.overleaf.com/read/rgscdxhxbwhp).
+- Add a new paper: 
+paste a bib entry to [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib).
 
-This page categorizes the literature by the **Published Venue**.
+- Run: 
+```python scripts/run.py```  (click [HERE](https://github.com/wutong8023/Auto-Bibfile/tree/master/your_topic4all) to see a demo.
+)
 
-## Outline 
-- [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/wutong8023/Auto-Bibfile/blob/master/./README.md#hyperlink)
-- [![](https://img.shields.io/badge/AAAI-1-blue)](https://github.com/wutong8023/Auto-Bibfile/blob/master/./README.md#aaai)
-- [![](https://img.shields.io/badge/arXiv-1-blue)](https://github.com/wutong8023/Auto-Bibfile/blob/master/./README.md#arxiv)
-## Hyperlink 
-- [[Overview]](https://github.com/wutong8023/Auto-Bibfile/blob/master/README.md) -- Homepage
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/./)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/./)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cv./) -- Summary
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/application)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/application)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvapplication) -- Application
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/approach)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/approach)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvapproach) -- Approach
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/author)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/author)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvauthor) -- Author
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/backbone_model)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/backbone_model)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvbackbone_model) -- Backbone Model
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/dataset)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/dataset)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvdataset) -- Dataset
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/metrics)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/metrics)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvmetrics) -- Metrics
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/research_question)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/research_question)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvresearch_question) -- Research Questions
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/setting)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/setting)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvsetting) -- Setting
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/supervision)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/supervision)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvsupervision) --  Learning Paradigm
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/time)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/time)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvtime) -- Published Time
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/type)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/type)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvtype) -- Resource Type
-- [[All]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/venue)  [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/venue)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cvvenue) -- Published Venue
+- Categorize:
+Add ```keywords``` to each entry and write down your note within ```@String()```. For example,
 
-## AAAI
+```latex
+@inproceedings{WuLLHQZX21,
+    author = {Tongtong Wu and
+        Xuekai Li and
+        Yuan{-}Fang Li and
+        Gholamreza Haffari and
+        Guilin Qi and
+        Yujin Zhu and
+        Guoqiang Xu},
+    title = {Curriculum-Meta Learning for Order-Robust Continual Relation Extraction},
+    booktitle = {Proceedings of AAAI},
+    pages = {10363--10369},
+    year = {2021},
+    url = {https://ojs.aaai.org/index.php/AAAI/article/view/17241},
+    keywords = {
+        New Method,
+        NLP,
+        Supervised Learning,
+        Relation Extraction,
+        Rehearsal, Meta-learning,
+        w/ External Knowledge,
+        Class Incremental,
+        Catastrophic Forgetting, Order Sensitivity,
+        RNNs,
+        Fewrel, SimpleQuestion, Tacred,
+        Accuracy
+    },
+}
+@String(WuLLHQZX21="Add a brief note behind the bib entry")
+```
 
-- [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241) [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , <br> by *Tongtong Wu and
-Xuekai Li and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Guilin Qi and
-Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/blob/master/./bibtex.bib#L4-L30)<br> ```Add a brief note under the bib entry
-```</details><details><summary><img src=https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/svg/copy_icon.png height="20"></summary><pre>```WuLLHQZX21```
-## arXiv
+## Instruction
+1. Update [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib): Auto-Bibfile will parse the keywords and meta-info of each entry.
+2. The keywords **MUST** be predefined in [scripts/config.py # fined_taxonomy](https://github.com/wutong8023/Auto-Bibfile/tree/master/scripts/config.py#L20-L73).
+3. Update [scripts/config.py](https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/utils.py) for customization.
 
-- [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509) [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
-Detection**](https://arxiv.org/abs/2105.09509) , <br> by *Shirong Shen and
-Tongtong Wu and
-Guilin Qi and
-Yuan{-}Fang Li and
-Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/blob/master/./bibtex.bib#L35-L61)<br> </details><details><summary><img src=https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/svg/copy_icon.png height="20"></summary><pre>```DBLP:journals/corr/abs-2105-09509```
+## How to Contribute
+Please feel free to use and share [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git). It would be great 
+if you can mention it in your repository by adding:
+> The automation script of this repo is powered by \[Auto-Bibfile\](https://github.com/wutong8023/Auto-Bibfile.git).
+
+## Acknowledgement
+This repository is developed and maintained by [Tongtong Wu](https://wutong8023.site). The automation script of this repo is partially adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
