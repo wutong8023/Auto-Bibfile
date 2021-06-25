@@ -99,7 +99,7 @@ def get_md_entry(DB, entry, add_comments=True):
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
     
     md_str += "<details><summary>[id]</summary>"
-    md_str += f"```\n\n{entry['ID']}\n\n```"
+    md_str += f"<pre>```\n{entry['ID']}\n```<\pre>"
     md_str += "</details>"
     #
     # md_str += '<br>\n'
