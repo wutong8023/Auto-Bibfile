@@ -78,7 +78,11 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
 
 def get_hyperlink(hyperlinks, mapping_name):
     str_hyperlink = "## Hyperlink \n"
-
+    
+    root = [hyperlinks[0]]
+    others = sorted(hyperlinks[1:])
+    hyperlinks = root + others
+    
     # Note: please check the branch name carefully!
     str_hyperlink += "- [[Overview]](" + base_link + "README.md) -- Homepage\n"
     for i, item in enumerate(hyperlinks):
