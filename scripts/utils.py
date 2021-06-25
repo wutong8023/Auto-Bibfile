@@ -102,13 +102,13 @@ def get_md_entry(DB, entry, add_comments=True):
         # maybe there is a comment to write
         if entry['ID'].lower() in DB.strings:
             # print("Com : " + entry['ID'])
-            md_str += '<pre>```\n'
+            md_str += '```'
             md_str += DB.strings[entry['ID'].lower()]
-            md_str += '\n```\n'
+            md_str += '\n```'
     md_str += "</details>"
     
     md_str += "<details><summary>[id] [comments]</summary>"
-    md_str += f"<pre>```\n{entry['ID']}\n```"
+    md_str += f"<pre>```{entry['ID']}```"
     
     # md_str += '<br>\n'
     return md_str
