@@ -36,7 +36,7 @@ Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary><pre>```
 WuLLHQZX21
-```<\pre></details>``` Add a brief note under the bib entry ``` 
+```</pre></details>``` Add a brief note under the bib entry ``` 
 
 ## N-way K-shot
 
@@ -48,4 +48,4 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary><pre>```
 DBLP:journals/corr/abs-2105-09509
-```<\pre></details>
+```</pre></details>
