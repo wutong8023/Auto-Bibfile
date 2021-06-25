@@ -4,7 +4,6 @@ from config import *
 
 bibtex_filename = "./bibtex.bib"
 
-
 def keep_last_and_only(authors_str):
     """
     This function is dedicated to parse authors, it removes all the "and" but the last and and replace them with ", "
@@ -45,7 +44,6 @@ def get_bibtex_line(filename, ID):
     assert end_line_number > 0
     return start_line_number, end_line_number
 
-
 def create_bib_link(ID):
     link = bibtex_filename
     start_bib, end_bib = get_bibtex_line(link, ID)
@@ -67,35 +65,41 @@ def get_md_entry(DB, entry, add_comments=True):
     """
     md_str = "\n"
     
-    paper_title = entry['title'].replace("{", "")
-    paper_title = paper_title.replace("}", "")
-    
-    if 'url' in entry.keys():
-        md_str += "- [**" + paper_title + "**](" + entry['url'] + ") "
-    else:
-        md_str += "- **" + paper_title + "**"
-    
+    md_str += "- "
+
     venue = ""
     year = ""
-    
+
     if "booktitle" in entry.keys():
         venue = entry["booktitle"].replace("Proceedings of ", "")
     if "journal" in entry.keys():
         venue += entry["journal"].replace("{", "").replace("}", "")
-    
+
     venue = venue.replace(" ", "_").replace("-", "_")
     if "year" in entry.keys():
         year = entry['year']
-    
+
     if venue != "" or year != "":
         tag = "![](https://img.shields.io/badge/{}-{}-red)".format(venue, year)
+        if "url" not in entry.keys():
+            print(entry["ID"])
         tag = "[{}]({})".format(tag, entry['url'])
-        md_str += ", {}<br>".format(tag)
+        md_str += "{}".format(tag)
     else:
-        md_str += ", <br>"
-    
+        md_str += ""
+
+    paper_title = entry['title'].replace("{", "")
+    paper_title = paper_title.replace("}", "")
+
+    if 'url' in entry.keys():
+        md_str += " [**" + paper_title + "**](" + entry['url'] + ") "
+    else:
+        md_str += " **" + paper_title + "**"
+        
+    md_str += ", <br>"
+
     md_str += " by *" + keep_last_and_only(entry['author']) + "*"
-    
+
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ")<br> "
 
     if add_comments:
@@ -107,9 +111,10 @@ def get_md_entry(DB, entry, add_comments=True):
             md_str += '\n```'
     md_str += "</details>"
     
-    md_str += '<details><summary><i class="far fa-copy"></i></summary>'
+    img_link = base_link + "scripts/svg/copy-5.png"
+    md_str += f'<details><summary><img src={img_link} height="20"></summary>'
     md_str += f"<pre>```{entry['ID']}```"
-    
+
     # md_str += '<br>\n'
     return md_str
 
