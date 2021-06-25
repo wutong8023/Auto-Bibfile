@@ -107,7 +107,7 @@ def get_md_entry(DB, entry, add_comments=True):
             md_str += '\n```'
     md_str += "</details>"
     
-    md_str += "<details><summary>[id] [comments]</summary>"
+    md_str += "<details><summary><small>copy bibID</small></summary>"
     md_str += f"<pre>```{entry['ID']}```"
     
     # md_str += '<br>\n'
