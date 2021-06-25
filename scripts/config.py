@@ -8,10 +8,11 @@ user_id = "wutong8023"  # github id
 author_info = "Tongtong Wu"  # used in introduction
 personal_link = "https://wutong8023.site"  # used in introduction
 repo_name = "Auto-Bibfile"  # repository name
-branch_name = "tree/master"  # branch name
+branch_name = "blob/master"  # branch name
 your_research_topic = "your_topic"  # used for dictionary name
 your_research_topic_full_name = "Your Topic"  # used for title
 bib_link_overleaf = "https://www.overleaf.com/read/rgscdxhxbwhp"  # used for overleaf
+generate_homepage = False
 
 base_link = f"https://github.com/{user_id}/{repo_name}/{branch_name}/"
 

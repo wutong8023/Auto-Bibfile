@@ -80,16 +80,18 @@ def get_hyperlink(hyperlinks, mapping_name):
     
     # Todo 2: Change to your own link
     # Note: please check the branch name carefully!
-    str_hyperlink += "- Homepage [Overview](" + base_link + "README.md)\n"
+    str_hyperlink += "- [[Overview]](" + base_link + "README.md) -- Homepage\n"
     for i, item in enumerate(hyperlinks):
-        str_hyperlink += "- " + mapping_name[item]
+        str_hyperlink += "- "
         all_link = "![](https://img.shields.io/badge/ALL-green)"
         nlp_link = "![](https://img.shields.io/badge/NLP-green)"
         cv_link = "![](https://img.shields.io/badge/CV-green)"
+
+        str_hyperlink += "[[All]](" + base_link + "" + your_research_topic + "4all/" + item + ')'
+        str_hyperlink += "  [[NLP]](" + base_link + "" + your_research_topic + "4nlp/" + item + ')'
+        str_hyperlink += "  [[CV]](" + base_link + "" + your_research_topic + "4cv" + item + ') '
+        str_hyperlink += "-- " + mapping_name[item] + "\n"
         
-        str_hyperlink += " of [All](" + base_link + "" + your_research_topic + "4all/" + item + ')'
-        str_hyperlink += " | [NLP](" + base_link + "" + your_research_topic + "4nlp/" + item + ')'
-        str_hyperlink += " | [CV](" + base_link + "" + your_research_topic + "4cv" + item + ')\n'
     
     return str_hyperlink
 
@@ -112,7 +114,8 @@ def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles
                          mapping_name=mapping_name,
                          discrib=disc + ".", add_hyperlink=True, hyperlinks=dir_path, get_outline=get_outline,
                          get_hyperlink=get_hyperlink)
-        if index != 0:
+        
+        if not generate_homepage or index != 0:
             break
 
 
