@@ -115,7 +115,7 @@ def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles
                          discrib=disc + ".", add_hyperlink=True, hyperlinks=dir_path, get_outline=get_outline,
                          get_hyperlink=get_hyperlink)
         
-        if not generate_homepage or index != 0:
+        if index != 0:
             break
 
 
