@@ -59,4 +59,4 @@ if you can mention it in your repository by adding:
 > The automation script of this repo is powered by \[Auto-Bibfile\](https://github.com/wutong8023/Auto-Bibfile.git).
 
 ## Acknowledgement
-This repository is maintained by [Tongtong Wu](https://wutong8023.site). The automation script of this repo is partially adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
+This repository is developed and maintained by [Tongtong Wu](https://wutong8023.site). The automation script of this repo is partially adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
