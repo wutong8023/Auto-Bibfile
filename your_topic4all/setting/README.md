@@ -34,7 +34,7 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details> <summary>[ID]</summary><pre><code>WuLLHQZX21</code></pre></details><br>
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details> <summary>[ID]</summary><code>WuLLHQZX21</code></details><br>
 ``` Add a brief note under the bib entry ``` 
 
 ## N-way K-shot
@@ -45,4 +45,4 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details> <summary>[ID]</summary><pre><code>DBLP:journals/corr/abs-2105-09509</code></pre></details><br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details> <summary>[ID]</summary><code>DBLP:journals/corr/abs-2105-09509</code></details><br>

@@ -100,9 +100,9 @@ def get_md_entry(DB, entry, add_comments=True):
     
     md_str += "<details> " \
               "<summary>[ID]</summary>" \
-              "<pre><code>" \
+              "<code>" \
               "{}" \
-              "</code></pre>" \
+              "</code>" \
               "</details>".format(entry["ID"])
     
     md_str += '<br>\n'
