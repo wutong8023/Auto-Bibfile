@@ -4,6 +4,7 @@ from config import *
 
 bibtex_filename = "./bibtex.bib"
 
+
 def keep_last_and_only(authors_str):
     """
     This function is dedicated to parse authors, it removes all the "and" but the last and and replace them with ", "
@@ -44,6 +45,7 @@ def get_bibtex_line(filename, ID):
     assert end_line_number > 0
     return start_line_number, end_line_number
 
+
 def create_bib_link(ID):
     link = bibtex_filename
     start_bib, end_bib = get_bibtex_line(link, ID)
@@ -64,15 +66,15 @@ def get_md_entry(DB, entry, add_comments=True):
     :return: markdown string
     """
     md_str = "\n"
-
+    
     paper_title = entry['title'].replace("{", "")
     paper_title = paper_title.replace("}", "")
-
+    
     if 'url' in entry.keys():
         md_str += "- [**" + paper_title + "**](" + entry['url'] + ") "
     else:
         md_str += "- **" + paper_title + "**"
-
+    
     venue = ""
     year = ""
     
@@ -91,11 +93,17 @@ def get_md_entry(DB, entry, add_comments=True):
         md_str += ", {}<br>".format(tag)
     else:
         md_str += ", <br>"
-
-
+    
     md_str += " by *" + keep_last_and_only(entry['author']) + "*"
     
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
+    
+    md_str += "<details> " \
+              "<summary>[ID]</summary>" \
+              "<pre><code>" \
+              "{}" \
+              "</code></pre>" \
+              "</details>".format(entry["ID"])
     
     md_str += '<br>\n'
     

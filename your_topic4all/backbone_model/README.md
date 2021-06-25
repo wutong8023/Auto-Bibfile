@@ -2,7 +2,7 @@
 This repository is maintained by [Tongtong Wu](https://wutong8023.site). Please don't hesitate to send me an email to collaborate or fix some entries (wutong8023 AT gmail.com). 
 The automation script of this repo is powered by [Auto-Bibfile](https://github.com/wutong8023/Auto-Bibfile.git).
 
-You can directly use our bibtex.bib in overleaf with this [link](https://github.com/wutong8023/Auto-Bibfile/tree/master/bibtxt.bib).
+You can directly use our bibtex.bib in overleaf with this [link](https://www.overleaf.com/read/rgscdxhxbwhp).
 
 This page categorizes the literature by the **Backbone Model**.
 
@@ -34,7 +34,7 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details> <summary>[ID]</summary><pre><code>DBLP:journals/corr/abs-2105-09509</code></pre></details><br>
 
 ## RNNs
 
@@ -44,5 +44,5 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <br>
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details> <summary>[ID]</summary><pre><code>WuLLHQZX21</code></pre></details><br>
 ``` Add a brief note under the bib entry ``` 
