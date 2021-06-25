@@ -36,7 +36,9 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details>``` Add a brief note under the bib entry ``` 
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```
+WuLLHQZX21
+```</details>``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
 Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
@@ -44,7 +46,9 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```
+DBLP:journals/corr/abs-2105-09509
+```</details>
 ## Yuan Fang Li
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
@@ -53,7 +57,9 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details>``` Add a brief note under the bib entry ``` 
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```
+WuLLHQZX21
+```</details>``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
 Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
@@ -61,7 +67,9 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```
+DBLP:journals/corr/abs-2105-09509
+```</details>
 ## Gholamreza Haffari
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
@@ -70,7 +78,9 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details>``` Add a brief note under the bib entry ``` 
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```
+WuLLHQZX21
+```</details>``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
 Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
@@ -78,7 +88,9 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```
+DBLP:journals/corr/abs-2105-09509
+```</details>
 ## Guilin Qi
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
@@ -87,7 +99,9 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details>``` Add a brief note under the bib entry ``` 
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```
+WuLLHQZX21
+```</details>``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
 Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and
@@ -95,4 +109,6 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```
+DBLP:journals/corr/abs-2105-09509
+```</details>
