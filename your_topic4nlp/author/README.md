@@ -36,7 +36,7 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{WuLLHQZX21}');">bibtex</a>]<div id="WuLLHQZX21" style="display:none"> <pre>WuLLHQZX21</pre></div><br>
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details><br>
 ``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
@@ -45,7 +45,7 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{DBLP:journals/corr/abs-2105-09509}');">bibtex</a>]<div id="DBLP:journals/corr/abs-2105-09509" style="display:none"> <pre>DBLP:journals/corr/abs-2105-09509</pre></div><br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details><br>
 
 ## Yuan Fang Li
 
@@ -55,7 +55,7 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{WuLLHQZX21}');">bibtex</a>]<div id="WuLLHQZX21" style="display:none"> <pre>WuLLHQZX21</pre></div><br>
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details><br>
 ``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
@@ -64,7 +64,7 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{DBLP:journals/corr/abs-2105-09509}');">bibtex</a>]<div id="DBLP:journals/corr/abs-2105-09509" style="display:none"> <pre>DBLP:journals/corr/abs-2105-09509</pre></div><br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details><br>
 
 ## Gholamreza Haffari
 
@@ -74,7 +74,7 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{WuLLHQZX21}');">bibtex</a>]<div id="WuLLHQZX21" style="display:none"> <pre>WuLLHQZX21</pre></div><br>
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details><br>
 ``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
@@ -83,7 +83,7 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{DBLP:journals/corr/abs-2105-09509}');">bibtex</a>]<div id="DBLP:journals/corr/abs-2105-09509" style="display:none"> <pre>DBLP:journals/corr/abs-2105-09509</pre></div><br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details><br>
 
 ## Guilin Qi
 
@@ -93,7 +93,7 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{WuLLHQZX21}');">bibtex</a>]<div id="WuLLHQZX21" style="display:none"> <pre>WuLLHQZX21</pre></div><br>
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id]</summary>```WuLLHQZX21```</details><br>
 ``` Add a brief note under the bib entry ``` 
 
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
@@ -102,4 +102,4 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) [<a href="javascript:void(0)" onclick="(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })(this, '{DBLP:journals/corr/abs-2105-09509}');">bibtex</a>]<div id="DBLP:journals/corr/abs-2105-09509" style="display:none"> <pre>DBLP:journals/corr/abs-2105-09509</pre></div><br>
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id]</summary>```DBLP:journals/corr/abs-2105-09509```</details><br>

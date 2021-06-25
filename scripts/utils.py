@@ -98,10 +98,10 @@ def get_md_entry(DB, entry, add_comments=True):
     
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
     
-    md_str += "[<a href=\"javascript:void(0)\" onclick=\"(function(target, id) { if ($('#' + id).css('display') == 'block') { $('#' + id).hide('fast'); $(target).text('bibtex') } else { $('#' + id).show('fast'); $(target).text('bibtex▲') } })"
-    md_str += "(this, '{"+entry["ID"]+"}');\">bibtex</a>]"
-    md_str += f'<div id="{entry["ID"]}" style="display:none"> <pre>{entry["ID"]}</pre></div>'
-
+    md_str += "<details><summary>[id]</summary>"
+    md_str += f"```{entry['ID']}```"
+    md_str += "</details>"
+    
     md_str += '<br>\n'
     
     if add_comments:
