@@ -36,7 +36,7 @@ Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id] [comments]</summary><pre>```
 WuLLHQZX21
-```</pre>``` Add a brief note under the bib entry ``` 
+```</pre><pre>``` Add a brief note under the bib entry```</pre>
 </details>
 - [**Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event
 Detection**](https://arxiv.org/abs/2105.09509) , [![](https://img.shields.io/badge/CoRR-2021-red)](https://arxiv.org/abs/2105.09509)<br> by *Shirong Shen and

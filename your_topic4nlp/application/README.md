@@ -36,7 +36,7 @@ Guilin Qi and
 Yujin Zhu and
 Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id] [comments]</summary><pre>```
 WuLLHQZX21
-```</pre>``` Add a brief note under the bib entry ``` 
+```</pre><pre>``` Add a brief note under the bib entry```</pre>
 </details>
 ## Event Extraction
 
