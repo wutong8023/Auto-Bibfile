@@ -36,9 +36,9 @@ Tongtong Wu and
 Guilin Qi and
 Yuan{-}Fang Li and
 Gholamreza Haffari and
-Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61) <details><summary>[id] [comments]</summary><pre>```
+Sheng Bi* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L35-L61)<br> </details><details><summary>[id] [comments]</summary><pre>```
 DBLP:journals/corr/abs-2105-09509
-```</pre></details>
+```
 ## Fewrel
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
@@ -47,12 +47,12 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id] [comments]</summary><pre>```
-WuLLHQZX21
-```</pre><pre>```
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30)<br> <pre>```
 Add a brief note under the bib entry
-```</pre>
-</details>
+```
+</details><details><summary>[id] [comments]</summary><pre>```
+WuLLHQZX21
+```
 ## SimpleQuestion
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
@@ -61,12 +61,12 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id] [comments]</summary><pre>```
-WuLLHQZX21
-```</pre><pre>```
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30)<br> <pre>```
 Add a brief note under the bib entry
-```</pre>
-</details>
+```
+</details><details><summary>[id] [comments]</summary><pre>```
+WuLLHQZX21
+```
 ## Tacred
 
 - [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , [![](https://img.shields.io/badge/AAAI-2021-red)](https://ojs.aaai.org/index.php/AAAI/article/view/17241)<br> by *Tongtong Wu and
@@ -75,9 +75,9 @@ Yuan{-}Fang Li and
 Gholamreza Haffari and
 Guilin Qi and
 Yujin Zhu and
-Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30) <details><summary>[id] [comments]</summary><pre>```
-WuLLHQZX21
-```</pre><pre>```
+Guoqiang Xu* [[bib]](https://github.com/wutong8023/Auto-Bibfile/tree/master/./bibtex.bib#L4-L30)<br> <pre>```
 Add a brief note under the bib entry
-```</pre>
-</details>
+```
+</details><details><summary>[id] [comments]</summary><pre>```
+WuLLHQZX21
+```
