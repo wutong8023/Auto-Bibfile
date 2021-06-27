@@ -55,19 +55,19 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
                    "You can directly use our bibtex.bib in overleaf with this " \
                    "[link]({bib_link_overleaf}).\n\n" \
                    "".format(author_info=author_info, personal_link=personal_link, bib_link_overleaf=bib_link_overleaf)
- 
+    
     str_outline += dicrib + "\n\n"
     
     str_outline += "## Outline \n"
     
     if add_hyperlink:
-        hyperlink = "![](https://img.shields.io/badge/Hyperlink-blue)"
+        hyperlink = f"![](https://img.shields.io/badge/Hyperlink-{color})"
         link = base_link + filename + '#hyperlink'
         str_outline += "- [" + hyperlink + "](" + link + ')\n'
     
     for i, item in enumerate(list_classif):
-        paper_number = "![](https://img.shields.io/badge/{}-{}-blue)".format(
-            item[0].replace(" ", "_").replace("-", "_"), str(count_list[i]))
+        paper_number = "![](https://img.shields.io/badge/{}-{}-{})".format(
+            item[0].replace(" ", "_").replace("-", "_"), str(count_list[i]), color)
         link = base_link + "" + filename + "#" + item[0].replace(" ", "-").lower()
         paper_number = "[{}]({})".format(paper_number, link)
         
@@ -85,13 +85,10 @@ def get_hyperlink(hyperlinks, mapping_name):
     str_hyperlink += "- [[Overview]](" + base_link + "README.md) -- Homepage\n"
     for i, item in enumerate(hyperlinks):
         str_hyperlink += "- "
-        all_link = "![](https://img.shields.io/badge/ALL-green)"
-        nlp_link = "![](https://img.shields.io/badge/NLP-green)"
-        cv_link = "![](https://img.shields.io/badge/CV-green)"
-
+        
         str_hyperlink += "[[All]](" + base_link + "" + your_research_topic + "4all/" + item + ')'
         str_hyperlink += "  [[NLP]](" + base_link + "" + your_research_topic + "4nlp/" + item + ')'
-        str_hyperlink += "  [[CV]](" + base_link + "" + your_research_topic + "4cv" + item + ') '
+        str_hyperlink += "  [[CV]](" + base_link + "" + your_research_topic + "4cv/" + item + ') '
         str_hyperlink += "-- " + mapping_name[item] + "\n"
     
     return str_hyperlink

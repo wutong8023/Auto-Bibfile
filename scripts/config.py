@@ -12,6 +12,7 @@ branch_name = "blob/master"  # branch name
 your_research_topic = "your_topic"  # used for dictionary name
 your_research_topic_full_name = "Your Topic"  # used for title
 bib_link_overleaf = "https://www.overleaf.com/read/rgscdxhxbwhp"  # used for overleaf
+color = "blue"
 
 base_link = f"https://github.com/{user_id}/{repo_name}/{branch_name}/"
 
