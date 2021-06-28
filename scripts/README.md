@@ -50,7 +50,7 @@ Add ```keywords``` to each entry and write down your note within ```@String()```
 
 ## Instruction
 1. Update [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib): Auto-Bibfile will parse the keywords and meta-info of each entry.
-2. The keywords **MUST** be predefined in [scripts/config.py # fined_taxonomy](https://github.com/wutong8023/Auto-Bibfile/tree/master/scripts/config.py#L20-L73).
+2. The keywords **MUST** be predefined in [scripts/config.py # fined_taxonomy](https://github.com/wutong8023/Auto-Bibfile/tree/master/scripts/config.py#L20-L73), but feel free to update what you need.
 3. Update [scripts/config.py](https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/utils.py) for customization.
 
 ## How to Contribute
