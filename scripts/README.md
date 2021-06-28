@@ -5,7 +5,7 @@ Auto-Bibfile is an automatic toolkit for README.md generation based on bibtex fi
 - Install: 
 ```pip install bibtexparser```
   
-- Update the configuration in [scripts/config.py](https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/utils.py).
+- Update the configuration in [scripts/config.py](https://github.com/wutong8023/Auto-Bibfile/blob/master/scripts/config.py).
 
 - Add a new paper: 
 paste a bib entry to [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blob/master/bibtex.bib).
