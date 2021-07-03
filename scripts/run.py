@@ -33,10 +33,10 @@ def plot_titles(titles):
 
 def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False):
     # todo: could be removed
-    external_link = "[![](https://img.shields.io/badge/Awesome_Continual_Learning-yello)](https://github.com/wutong8023/Awesome_Continual_Learning.git) " \
+    external_link = "[![](https://img.shields.io/badge/Awesome_Continual_Learning-yellow)](https://github.com/wutong8023/Awesome_Continual_Learning.git) " \
                     "[![](https://img.shields.io/badge/Awesome_Few_Shot_learning-green)](https://github.com/wutong8023/Awesome_Few_Shot_Learning.git) " \
                     "[![](https://img.shields.io/badge/Awesome_Information_Extraction-blue)](https://github.com/wutong8023/Awesome_Information_Extraction.git) " \
-                    "[![](https://img.shields.io/badge/Awesome_Ideas-red)](https://github.com/wutong8023/Awesome_Ideas.git)\n\n"
+                    "[![](https://img.shields.io/badge/Awesome_Ideas-orange)](https://github.com/wutong8023/Awesome_Ideas.git)\n\n"
     
     if filename.startswith("" + your_research_topic + "4nlp"):
         str_outline = external_link
@@ -82,14 +82,16 @@ def get_hyperlink(hyperlinks, mapping_name):
     hyperlinks = sorted(hyperlinks)
     
     # Note: please check the branch name carefully!
-    str_hyperlink += "- [[Overview]](" + base_link + "README.md) -- Homepage\n"
+    str_hyperlink += f"- [[Overview]]({base_link}README.md) -- [Homepage]({base_link}README.md)\n"
     for i, item in enumerate(hyperlinks):
         str_hyperlink += "- "
-        
-        str_hyperlink += "[[All]](" + base_link + "" + your_research_topic + "4all/" + item + ')'
-        str_hyperlink += "  [[NLP]](" + base_link + "" + your_research_topic + "4nlp/" + item + ')'
-        str_hyperlink += "  [[CV]](" + base_link + "" + your_research_topic + "4cv/" + item + ') '
-        str_hyperlink += "-- " + mapping_name[item] + "\n"
+        all_link = "![](https://img.shields.io/badge/ALL-green)"
+        nlp_link = "![](https://img.shields.io/badge/NLP-green)"
+        cv_link = "![](https://img.shields.io/badge/CV-green)"
+
+        str_hyperlink += f"[[NLP]]({base_link + your_research_topic}4nlp/{item})"
+        str_hyperlink += f"  [[CV]]({base_link + your_research_topic}4cv/{item})"
+        str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic})\n"
     
     return str_hyperlink
 
