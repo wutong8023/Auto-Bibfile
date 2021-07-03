@@ -6,11 +6,11 @@ The automation script of this repo is powered by [Auto-Bibfile](https://github.c
 
 You can directly use our bibtex.bib in overleaf with this [link](https://www.overleaf.com/read/rgscdxhxbwhp).
 
-This page categorizes the literature by the **Last Post**.
+This page categorizes the literature by the Contribution.
 
 ## Outline 
-- [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/time/README.md#hyperlink)
-- [![](https://img.shields.io/badge/2021-2-blue)](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/time/README.md#2021)
+- [![](https://img.shields.io/badge/Hyperlink-blue)](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/contribution/README.md#hyperlink)
+- [![](https://img.shields.io/badge/New_Method-2-blue)](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/contribution/README.md#new-method)
 ## Hyperlink 
 - [[Overview]](https://github.com/wutong8023/Auto-Bibfile/blob/master/README.md) -- [Homepage](https://github.com/wutong8023/Auto-Bibfile/blob/master/README.md)
 - [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/./)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cv/./) -- [Summary](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/./)
@@ -27,7 +27,7 @@ This page categorizes the literature by the **Last Post**.
 - [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/time)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cv/time) -- [Published Time](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/time)
 - [[NLP]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4nlp/venue)  [[CV]](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4cv/venue) -- [Published Venue](https://github.com/wutong8023/Auto-Bibfile/blob/master/your_topic4all/venue)
 
-## 2021
+## New Method
 
 - [![](https://img.shields.io/badge/AAAI-2021-blue)](https://ojs.aaai.org/index.php/AAAI/article/view/17241) [**Curriculum-Meta Learning for Order-Robust Continual Relation Extraction**](https://ojs.aaai.org/index.php/AAAI/article/view/17241) , <br> by *Tongtong Wu and
 Xuekai Li and

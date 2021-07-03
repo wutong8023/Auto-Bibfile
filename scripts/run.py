@@ -75,7 +75,6 @@ def get_outline(list_classif, count_list, filename, dicrib, add_hyperlink=False)
     
     return str_outline
 
-
 def get_hyperlink(hyperlinks, mapping_name):
     str_hyperlink = "## Hyperlink \n"
     
@@ -91,10 +90,9 @@ def get_hyperlink(hyperlinks, mapping_name):
 
         str_hyperlink += f"[[NLP]]({base_link + your_research_topic}4nlp/{item})"
         str_hyperlink += f"  [[CV]]({base_link + your_research_topic}4cv/{item})"
-        str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic})\n"
+        str_hyperlink += f" -- [{mapping_name[item]}]({base_link + your_research_topic}4all/{item})\n"
     
     return str_hyperlink
-
 
 def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles, sub_dirs=None, mapping_name=None):
     generate_md_file(DB=bib_db, list_classif=list_type, key=keys, plot_title_fct=plot_titles,
@@ -121,7 +119,7 @@ def plot_content(index, keys, dir_path, disc, list_type, plot_titles=plot_titles
 # check repetition
 check_repetition()
 
-dir_path = ["./", "type", "time", "application", "supervision", "approach", "setting",
+dir_path = ["./", "contribution", "time", "application", "supervision", "approach", "setting",
             "research_question", "backbone_model", "dataset", "metrics", "author", "venue"]
 
 mapping_name = {
@@ -129,7 +127,7 @@ mapping_name = {
     "venue": "Published Venue",
     "time": "Published Time",
     "application": "Application",
-    "type": "Resource Type",
+    "contribution": "Contribution",
     "supervision": " Learning Paradigm",
     "approach": "Approach",
     "setting": "Setting",
@@ -154,10 +152,10 @@ for index in indexs:
     plot_content(index=index, keys=["booktitle", "journal"], dir_path=dir_path, disc=disc, list_type=list_type,
                  sub_dirs=sub_dirs, mapping_name=mapping_name)
 
-# 1 Resource Type
-list_type = [[typ] for typ in fined_taxonomy["Type"]]
+# 1 Contribution
+list_type = [[typ] for typ in fined_taxonomy["Contribution"]]
 index = 1
-disc = "This page categorizes the literature by the Resource Type"
+disc = "This page categorizes the literature by the Contribution"
 plot_content(index=index, keys=["keywords"], dir_path=dir_path, disc=disc, list_type=list_type, sub_dirs=sub_dirs,
              mapping_name=mapping_name)
 
