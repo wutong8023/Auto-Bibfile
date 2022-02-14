@@ -18,34 +18,23 @@ paste a bib entry to [bibtex.bib](https://github.com/wutong8023/Auto-Bibfile/blo
 Add ```keywords``` to each entry and write down your note within ```@String()```. For example,
 
 ```latex
-@inproceedings{WuLLHQZX21,
-    author = {Tongtong Wu and
-        Xuekai Li and
-        Yuan{-}Fang Li and
-        Gholamreza Haffari and
-        Guilin Qi and
-        Yujin Zhu and
-        Guoqiang Xu},
-    title = {Curriculum-Meta Learning for Order-Robust Continual Relation Extraction},
-    booktitle = {Proceedings of AAAI},
-    pages = {10363--10369},
-    year = {2021},
-    url = {https://ojs.aaai.org/index.php/AAAI/article/view/17241},
-    keywords = {
-        New Method,
+@inproceedings{wu2022pretrained,
+  title={Pretrained Language Model in Continual Learning: A Comparative Study},
+  author={Tongtong Wu and Massimo Caccia and Zhuang Li and Yuan-Fang Li and Guilin Qi and Gholamreza Haffari},
+  booktitle={Proceedings of ICLR},
+  year={2022},
+  url={https://openreview.net/forum?id=figzpGMrdD},
+  keywords={
+        Empirical Study,
         NLP,
         Supervised Learning,
-        Relation Extraction,
-        Rehearsal, Meta-learning,
-        w/ External Knowledge,
-        Class Incremental,
-        Catastrophic Forgetting, Order Sensitivity,
-        RNNs,
-        Fewrel, SimpleQuestion, Tacred,
-        Accuracy
-    },
+        Sequence Classification,
+        Catastrophic Forgetting,
+        PLMs,
+        MAVEN, CLINC150, WEBRED,
+  },
 }
-@String(WuLLHQZX21="Add a brief note behind the bib entry")
+@String(wu2022pretrained="To explore the layer-wise property of pretrained languge models in continual learning, we thoroughly compare the continual learning performance over the combination of 5 PLMs and 4 veins of CL methods on 3 benchmarks in 2 typical incremental settings.")
 ```
 
 ## Instruction
